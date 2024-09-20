@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 8vh 4vh;
+    background-color: rgb(4, 51, 54);
+}
+
+#principio{
+    height: 30vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: filas;
+    background-image: url("img/ICONOS/azul_oscuro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.column{
+    width: 50%;
+}
+
+#preguntas{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#preguntas > h3{
+    margin: 0;
+}
+
+#correo{
+    color: #033eff;
+}
+
+.filas{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    
+}
+
+.filas > *{
+    margin: 0;
+    color: white;
+}
+
+.filas > h1{
+    font-size: 300%;
+}
+
+.filas > button{
+    background-color: #033eff;
+    border-radius: 100px;
+    padding: 2%;
+}
+
+#filas2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#iconos{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: filas;
+}
+
+#iconos > img{
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    top: 46%;
+    left: 42%;
+    border-radius: 5000px;
+    border: 10px solid white;
+}
+
+.barra0{
+    display: flex;
+    flex-direction: filas;
+    width: 50%;
+}
+
+.barra0 > *{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+    background-color: transparent;
+    border-bottom: none;
+    border-top: none;
+    border-left: 1px solid black;
+    border-right: none;
+}
+
+.especial{
+    border-right: 1px solid black;
+}
+
+.barratexto{
+    margin-right: 10%;
+    font-size: x-large;
+}
+
+#barra2{
+    margin-left: 5%;
+}
+
+#barra1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.imgBt{
+    margin-right: 10px;
+}
+
+.animacion:hover{
+    background-color: #Dedddd;
+    transform: scale(0.95);
+}
+
+.aumentar:hover{
+    transform: scale(1.25);
+}
+
+#SANTI{
+    display: flex;
+}
+
+#SANTI > div{
+    padding: 5%;
+    width: 33%;
+}
+
+#YO{
+    background-color: white;
+    border: SOLID 1PX BLACK;
+}
+
+#YO > button{
+    border-radius: 100px;
+    border: 1px solid #033eff;
+    background-color: none;
+    color: 
+
+
+    #033eff;
+    padding: 2%;
+}
+
+#infofrmacionP{
+    background-color: white;
+    border: SOLID 1PX BLACK;
+}
+
+#infofrmacionP > p{
+    margin-bottom: 2%;
+}
+
+#experiencia{
+    background-color: white;
+    border: SOLID 1PX BLACK;
+}
+
+.AZliena{
+    height: 5px;
+    width: 40px;
+    background-color: #033eff;
+}
+
+#resumen1 {
+    background-color: white;
+    padding: 4% 5%;
+}
+
+#resumen2{
+    display: flex;
+    max-width: 100%;
+}
+
+#resumen2 > div{
+    width: 33%;
+    height: fit-content;
+    margin: 0 1% 0 0;
+}
+
+.minicontenedores{
+    border: 1px solid black;
+    padding: 3vh 3vh;
+    margin-bottom: 4%;
+}
+
+.nivel{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.nivel > *{
+    margin: 2%;
+}
+
+ul{
+    margin: 0;
+    padding-left: 3vh;
+}
+
+.GSlinea{
+    background-color: gray;
+    height: 5px;
+    width: 40px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.hobiees{
+    height: 64px;
+}
+
+.CNpasatiempos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.pasatiempos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pasatiempos > div{
+    border-radius: 5000px;
+    border: 2px solid #033eff;
+    padding: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgIntereses > img{
+    width: 40px;
+}
+
+@media(max-width:1400px){
+    #iconos{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        height: fit-content;
+    }
+
+    #iconos{
+        grid-template-columns: 38% 20% 38%;
+        justify-items: center;
+    }
+
+    .barra0{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .barra0 > button{
+        width: 33%;
+    }
+
+    .barratexto{
+        display: none;
+    }
+
+    .imgBt{
+        margin: 0;
+    }
+
+    #barra1{
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    #iconos > img{
+        position: static;
+    }
+}
+
+    .intereses{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+
+@media (max-width:1000px){
+    #resumen2{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    #iconos{
+        grid-template-columns: 38% 20% 38%;
+        justify-items: center;
+    }
+
+    .barra0{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .barra0 > button{
+        width: 33%;
+    }
+
+    .barratexto{
+        display: none;
+    }
+
+    .imgBt{
+        margin: 0;
+    }
+
+    #barra1{
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    #iconos > img{
+        position: static;
+    }
+}
+
+    #resumen2 > div{
+        width: auto;
+    }
+
+    #diferenteD{
+        display: flex;
+    }
+
+
+@media (max-width: 800px){
+    #principio{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        height: fit-content;
+    }
+    
+    #preguntas{
+        margin-top: 5%;
+        margin-left: 60%;
+    }
+
+    #SANTI{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+    }
+
+    #SANTI > div{
+        width: 100%;
+    }
+
+    #resumen2{
+        grid-template-columns: repeat(1, 90%);
+    }
+
+    #diferenteD{
+        flex-direction: column;
+    }
+
+    #iconos{
+        grid-template-columns: 38% 20% 38%;
+        justify-items: center;
+    }
+
+    .barra0{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .barra0 > button{
+        width: 33%;
+    }
+
+    .barratexto{
+        display: none;
+    }
+
+    .imgBt{
+        margin: 0;
+    }
+
+    #barra1{
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    #iconos > img{
+        position: static;
+    }
+}
+
+@media (max-width: 400px){
+    #principio{
+        display: grid;
+        grid-template-columns: repeat(1, 96%);
+        height: fit-content;
+        
+    }
+    
+    #preguntas{
+        margin-top: 5%;
+        margin-left: 61%;
+    }
+
+    #SANTI{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+    }
+
+    #SANTI > div{
+        width: 100%;
+    }
+
+    #resumen2{
+        grid-template-columns: repeat(1, 95%);
+    }
+
+    #diferenteD{
+        flex-direction: column;
+    }
+
+    #iconos{
+        grid-template-columns: 38% 20% 38%;
+        justify-items: center;
+    }
+
+    .barra0{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .barra0 > button{
+        width: 33%;
+    }
+
+    .barratexto{
+        display: none;
+    }
+
+    .imgBt{
+        margin: 0;
+    }
+
+    #barra1{
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    #iconos > img{
+        position: static;
+    }
+}
